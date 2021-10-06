@@ -2,9 +2,13 @@ import './css/App.css';
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Header from './components/header';
+import Footer from './components/footer.js'
 import Home from './components/home'
-import About from './components/about';
+import Register from './components/register';
 import Contact from './components/contact';
+import SchedulePricing from './components/schedulePricing';
+import Glimpse from './components/glimspe';
+
 
 function App() {
   return (
@@ -14,12 +18,15 @@ function App() {
           <Header/>
           <div className='content'>
             <Switch>
-                <Route path='/About' component={About} />
+                <Route path='/Register' component={Register} />
+                <Route path='/info' component={SchedulePricing} />
+                <Route path='/glimpse' component={Glimpse} />
                 <Route path='/Contact' component={Contact} />
                 <Route path='/' component={Home} />
             </Switch>
           </div>
         </div>
+        <Footer />
           
       </div>
     </Router>
