@@ -15,13 +15,15 @@ const HomeDiv = styled.div`
     }
     .myStory{
         height: 25vh;
-        width: 80%;
+        width: 60%;
         background-image: url(${teaching});
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         border-radius: 25px;
         background-position: right;
     }
+
     span{
         color: #1D2564;
         font-weight: bold;
