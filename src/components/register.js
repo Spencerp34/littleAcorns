@@ -6,6 +6,7 @@ const RegistrationDiv = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        min-height: 65vh;
     }
     .information{
         width: 45%;
@@ -31,7 +32,7 @@ const RegistrationDiv = styled.div`
         border-radius: 15px;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         .group{
             flex-direction: column;
             justify-content: center;
