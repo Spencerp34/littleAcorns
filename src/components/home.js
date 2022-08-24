@@ -1,4 +1,4 @@
-import { BrowserRouter as Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import styled from 'styled-components';
 import Carousel from './carousel'
 
@@ -23,27 +23,24 @@ const HomeDiv = styled.div`
         border-radius: 25px;
         background-position: right;
     }
-
     span{
         color: #1D2564;
         font-weight: bold;
         font-size: 1.5em;
         margin-top: 0%;
     }
-
-
+    #story{
+        color: orange;
+    }
     .short{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        height: 95vh;
     }
     .sq{
         width: 45%;
-        min-height: 47.5vh;
-        border: 3px solid black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -53,7 +50,6 @@ const HomeDiv = styled.div`
         max-width: 100%;
         background-position: center;
     }
-
     .nav{
         text-decoration: none;
         color: #61dafb;
@@ -62,19 +58,14 @@ const HomeDiv = styled.div`
         border-radius: 25px;
         transition: .3s;
     }
-
     .nav:hover{
         background-color: #61dafb;
         color: white;
     }
+    
     @media (max-width: 1100px){
         .short{
-            height: 85vh;
             margin-bottom: 15vh;
-        }
-
-        .sq{
-            height: 30vh;
         }
         p{
             font-size: 1rem;
@@ -88,16 +79,9 @@ const HomeDiv = styled.div`
         }
 
         .short{
-            height: 65vh;
             flex-direction: column;
             flex-wrap: nowrap;
             margin-bottom: 1vh;
-        }
-
-        .sq{
-            border: none;
-            border-top: 2px solid black;
-            min-height: 30vh;
         }
         .sq:nth-child(2){
             display: none;
@@ -121,7 +105,7 @@ function Home(){
                 <br/>
                 <div className='story'>
                     <div className='myStory' >
-                        <span>My Story</span>
+                        <span id="story">My Story</span>
                     </div>        
                     <p>My name is Talia, I have been passionate about teaching my entire life. I am a licensed care-taker for children and I am currently working towards a degree in elementary education where I am excited to forward my goals of being an educator. I live and operate my preschool from my home in Silverlake Eagle Mountain.</p>
                 </div>
