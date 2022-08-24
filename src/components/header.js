@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import styled from 'styled-components';
 
 const Heading = styled.div`
@@ -70,13 +71,13 @@ function Header(){
         <header>
             <Heading>
                 <NavBar>
-                    <a className="nav" href='/Register'>Register For Class</a>
-                    <a className='nav' href='/info'>Schedule/Pricing</a>
-                    <a className='nav' href='/glimpse'>Day to Day</a>
-                    <a className="nav" href='/Contact'>Contact</a>
+                    <Link className="nav" to='/Register'>Register For Class</Link>
+                    <Link className='nav' to='/info'>Schedule/Pricing</Link>
+                    <Link className='nav' to='/glimpse'>Day to Day</Link>
+                    <Link className="nav" to='/Contact'>Contact</Link>
                 </NavBar>
                 <Logo>
-                    <a className='logo' href='/'>Little Acorns</a>
+                    <Link className='logo' to='/'>Little Acorns</Link>
                 </Logo>
             </Heading>
         </header>
