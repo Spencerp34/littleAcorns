@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Heading = styled.div`
   display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
   max-height: 30vh;
   width: 100%;
@@ -25,6 +25,9 @@ const Logo = styled.div`
 
   @media (max-width: 650px){
     margin: 1vh;
+    .logo{
+      font-size: 2rem;
+    }
   }
 
 `
@@ -32,7 +35,7 @@ const Logo = styled.div`
 const NavBar = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: center;
   margin-right: 10%;
   text-align: right;
   line-height: 30px;
@@ -54,9 +57,11 @@ const NavBar = styled.div`
 
   @media (max-width: 650px){
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #9D9B95;
+    background-color: rgba(0.33, 0.33, 0.33, .35);
     border-radius: 10px;
+    margin-right: 0%;
     .nav{
       font-weight: bold;
     }
@@ -71,9 +76,10 @@ function Header(){
         <header>
             <Heading>
                 <NavBar>
+                    <Link className="nav" to='/'>Home</Link>
                     <Link className="nav" to='/Register'>Register For Class</Link>
-                    <Link className='nav' to='/info'>Schedule/Pricing</Link>
-                    <Link className='nav' to='/glimpse'>Day to Day</Link>
+                    <Link className="nav" to='/info'>Schedule/Pricing</Link>
+                    <Link className="nav" to='/glimpse'>Day to Day</Link>
                     <Link className="nav" to='/Contact'>Contact</Link>
                 </NavBar>
                 <Logo>

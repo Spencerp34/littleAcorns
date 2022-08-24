@@ -17,7 +17,7 @@ function Footer(){
     return(
         <FooterDiv>
             <footer>
-                <p>©2021 by Little Acorns LLC. Proudly created with React</p>
+                <p>©2021 by Little Acorns LLC</p>
             </footer>
         </FooterDiv>
     )
