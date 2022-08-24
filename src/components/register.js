@@ -1,5 +1,4 @@
 import slideBoy from '../assets/slideBoy.webp'
-
 import styled from 'styled-components';
 
 const RegistrationDiv = styled.div`

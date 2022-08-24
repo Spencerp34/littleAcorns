@@ -1,4 +1,3 @@
-import { BrowserRouter as Link} from "react-router-dom";
 import styled from 'styled-components';
 
 const Heading = styled.div`
@@ -71,13 +70,13 @@ function Header(){
         <header>
             <Heading>
                 <NavBar>
-                    <Link className="nav" to='/Register'>Register For Class</Link>
-                    <Link className='nav' to='/info'>Schedule/Pricing</Link>
-                    <Link className='nav' to='/glimpse'>Day to Day</Link>
-                    <Link className="nav" to='/Contact'>Contact</Link>
+                    <a className="nav" href='/Register'>Register For Class</a>
+                    <a className='nav' href='/info'>Schedule/Pricing</a>
+                    <a className='nav' href='/glimpse'>Day to Day</a>
+                    <a className="nav" href='/Contact'>Contact</a>
                 </NavBar>
                 <Logo>
-                    <Link className='logo' to='/'>Little Acorns</Link>
+                    <a className='logo' href='/'>Little Acorns</a>
                 </Logo>
             </Heading>
         </header>
