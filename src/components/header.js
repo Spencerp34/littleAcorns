@@ -35,7 +35,7 @@ const Logo = styled.div`
 const NavBar = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   margin-right: 10%;
   text-align: right;
   line-height: 30px;
@@ -55,7 +55,7 @@ const NavBar = styled.div`
   }
 
 
-  @media (max-width: 650px){
+  @media (max-width: 750px){
     flex-direction: column;
     justify-content: center;
     align-items: center;
