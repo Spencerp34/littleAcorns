@@ -22,6 +22,12 @@ const SchedulePricingDiv = styled.div`
         font-size: 1.3rem;
         color: #61dafb;
     }
+
+    @media (max-width: 1600px) {
+        .info{
+            flex-direction: column;
+        }
+    }
 `
 
 function SchedulePricing(){

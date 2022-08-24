@@ -5,12 +5,6 @@ import lesson from '../assets/lesson.jpg'
 import singing from '../assets/singing.jpg'
 
 const GlimpseDiv = styled.div`
-
-    p{
-        text-align: left;
-        line-height: 40px;
-    }
-
     .schedule{
         display: flex;
         flex-direction: row;
@@ -19,8 +13,9 @@ const GlimpseDiv = styled.div`
         align-items: center;
     }
     p{
+        padding: 5%;
+        text-align: left;
         width: 40%;
-        min-height: 47.5vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
