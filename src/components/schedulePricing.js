@@ -41,16 +41,14 @@ function SchedulePricing(){
                         <h2>Three Year Old Classes <span>$90/month</span></h2>
                         <h4>Age 3 by September</h4>
                         <p>Classes are Tuesday and Thursday</p>
-                        <p>Morning classes are 9am - 11:30am</p>
-                        <p>Afternoon classes are 12pm - 2:30pm</p>
+                        <p>Classes are 9am - 11:30am</p>
                         <p>$90 per month with a $55 non-refundable materials fee</p>
                     </div>
                     <div className='fouryo'>
                         <h2>Four Year Old Classes <span>$110/month</span></h2>
                         <h4>Age 4 by September</h4>
                         <p>Classes are Monday, Wednesday, and Friday</p>
-                        <p>Morning classes are 9am - 11:30am</p>
-                        <p>Afternoon classes are 12pm - 2:30pm</p>
+                        <p>Classes are 9am - 11:30am</p>
                         <p>$110 per month with a $70 non-refundable materials fee</p>
                     </div>
                 </div>
