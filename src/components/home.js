@@ -124,7 +124,7 @@ function Home(){
                     </div>
                     <div className='sq'>
                     <h4>Ready to Register?</h4>
-                        <p>After Filling out the Registration Form I will contact you to get the materials fee ($55 for 3yo and $70 for 4yo classes non-refundable) as well as sending you the enrollment form!</p>
+                        <p>After filling out the registration form I will contact you to get the materials fee ($55 for 3yo and $70 for 4yo classes non-refundable) as well as sending you the enrollment form!</p>
                         <Link className="nav" to='/Register'>Register</Link>
                     </div>
                 </div>
