@@ -57,7 +57,7 @@ function Registration(){
                         <h2>Registration Form</h2>
                         <p>Below you can fill out a registration form. After filling out the registration form I will contact you to get the materials fee ($55 for 3yo and $70 for 4yo classes) as well as sending you the enrollment form and answer any questions that you may have.</p>
                         <p>The materials fee will be used to hold your spot and will not be refundable.</p>
-                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScp9p8yQQce6NCHaBt86Pq2JJ3nRmSE-r15etPO7TQRHNC6HQ/viewform" rel="noreferrer">Registration Form</a>
+                        <a target="_blank" href="https://forms.gle/vpkoksBndyyskv6r7" rel="noreferrer">Registration Form</a>
                     </div>
                     <div className='pics'></div>
                 </div>
